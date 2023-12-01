@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url(../imgs/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contain_box {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    padding-top: 8%;
+    padding-left: 20%;
+}
+.con .contact {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 22px;
+    font-family: 'SWEISPRINGCJKSC-SEMIBOLD';
+    letter-spacing: 2px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.con .email {
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    font-size: 16px;
+    font-family: 'SWEISPRINGCJKSC-SEMIBOLD';
+    letter-spacing: 1px;
+    color: #666;
+}
+.con .email>span:nth-child(2) {
+    margin-left: 5px;
+}
+.con .wechat {
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    font-size: 16px;
+    font-family: 'SWEISPRINGCJKSC-SEMIBOLD';
+    letter-spacing: 1px;
+    color: #666;
+}
+.con .wechat>span:nth-child(2) {
+    margin-left: 5px;
+}
+.con .redbook {
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    font-size: 16px;
+    font-family: 'SWEISPRINGCJKSC-SEMIBOLD';
+    letter-spacing: 1px;
+    color: #666;
+}
+.con .redbook>span:nth-child(2) {
+    margin-left: 5px;
+}
+.contain_box>.con:nth-child(2) {
+    margin-top: 30px;
+}
+.back {
+    width: 100px;
+    height: 30px;
+    border: 1px solid #999;
+    line-height: 30px;
+    margin-top: 35px;
+    text-align: center;
+}
+.back>a {
+    color: #000;
+    text-decoration:none
+}
+@media (min-width:992px) and (max-width:1200px) {
+    .con .contact{
+        font-size: 20px;
+    }
+    .con .email {
+        font-size: 15px;
+    }
+    .con .wechat{
+        font-size: 15px;
+    }
+    .con .redbook{
+        font-size: 15px;
+    }
+    .back {
+        width: 90px;
+        height: 25px;
+        line-height: 25px; 
+    }
+    .back>a {
+        font-size: 15px;
+    }
+}
+@media (min-width:768px) and (max-width:991px) {
+    .con .contact{
+        width: 100%;
+        height: 20px;
+        line-height: 20px;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .con .email {
+        font-size: 14px;
+    }
+    .con .wechat{
+        font-size: 14px;
+    }
+    .con .redbook{
+        font-size: 14px;
+    }
+    .con .redbook>span:nth-child(2) {
+        margin-left: 3px;
+    }
+    .contain_box>.con:nth-child(2) {
+        margin-top: 20px;
+    }
+    .back {
+        width: 80px;
+        height: 20px;
+        line-height: 20px;
+        margin-top: 25px; 
+    }
+    .back>a {
+        font-size: 14px;
+    }
+    .contain_box {
+        padding-top: 5%;
+        padding-left: 10%;
+    }
+}
+@media (max-width:767px) {
+    .con .contact{
+        width: 100%;
+        height: 15px;
+        line-height: 15px;
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .con .email {
+        font-size: 12px;
+    }
+    .con .wechat{
+        font-size: 12px;
+    }
+    .con .redbook{
+        font-size: 12px;
+    }
+    .back {
+        width: 60px;
+        height: 20px;
+        line-height: 20px;
+        margin-top: 15px; 
+    }
+    .back>a {
+        font-size: 12px;
+    }
+    .con .redbook>span:nth-child(2) {
+        margin-left: 2px;
+    }
+    .contain_box>.con:nth-child(2) {
+        margin-top: 15px;
+    }
+    .contain_box {
+        padding-top: 3%;
+        padding-left: 8%;
+    }
+}

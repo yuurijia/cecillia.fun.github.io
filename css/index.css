@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+body {
+    background-image:url(../imgs/page.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+p {
+    font-family: 'SWEISPRINGCJKSC-SEMIBOLD';
+    letter-spacing: 4px;
+}
+li a {
+    color: #333;
+    font-family: 'SWEISPRINGCJKSC-SEMIBOLD';
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.in {
+    position: absolute;
+    bottom: 15%;
+    left: 0;
+    width: 100px;
+    height: 30px;
+    border: 1px solid #999;
+    line-height: 30px;
+    margin-top: 35px;
+    text-align: center;
+    font-size: 12px;
+}

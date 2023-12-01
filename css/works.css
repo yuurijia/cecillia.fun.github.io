@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+ul li{
+    list-style-type: circle;
+}
+body {
+    background-image: url(../imgs/work01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.work01{
+    position: absolute;
+    left: 35px;
+    bottom: 0px;
+    width: 380px;
+    height: 380px;
+}
+.work01 img {
+    width: 100%;
+    height: 375px;
+}
+.work02{
+    position: absolute;
+    bottom: 0px;
+    left: 435px;
+    width: 380px;
+    height: 420px;
+}
+.work02 img {
+    width: 100%;
+    height: 400px;
+}
+.work03{
+    position: absolute;
+    bottom: 0px;
+    left: 800px;
+    width: 390px;
+    height: 430px;
+}
+.work03 img {
+    width: 100%;
+    height: 410px;
+}
+.back {
+    position: fixed;
+    bottom: 25%;
+    right: 0;
+    box-sizing: border-box;
+    width: 100px;
+    height: 30px;
+    border: 1px solid #999;
+    line-height: 30px;
+    text-align: center;
+    background-color: rgb(162, 118, 96);
+}
+.back>a {
+    color: #fff;
+    text-decoration:none;
+    font-weight: bold;
+}
+@media (min-width:992px) and (max-width:1200px) {
+    .work01{
+        left: 20px;
+        width: 330px;
+        height: 350px;
+    }
+    .work01 img {
+        width: 100%;
+        height: 340px;
+    }
+    .work02{
+        left: 350px;
+        width: 330px;
+        height: 380px;
+    }
+    .work02 img {
+        width: 100%;
+        height: 375px;
+    }
+    .work03{
+        position: absolute;
+        bottom: 0px;
+        left: 650px;
+        width: 350px;
+        height: 400px;
+    }
+    .work03 img {
+        width: 100%;
+        height: 390px;
+    }
+    .back {
+        width: 90px;
+        height: 25px;
+        line-height: 25px; 
+    }
+    .back>a {
+        font-size: 15px;
+    }
+
+}
+@media (min-width:768px) and (max-width:991px) {
+    .work01{
+        left: 10px;
+        width: 250px;
+        height: 280px;
+    }
+    .work01 img {
+        width: 100%;
+        height: 275px;
+    }
+    .work02{
+        left: 300px;
+        width: 250px;
+        height: 300px;
+    }
+    .work02 img {
+        width: 100%;
+        height: 295px;
+    }
+    .work03{
+        left: 550px;
+        width: 300px;
+        height: 375px;
+    }
+    .work03 img {
+        width: 100%;
+        height: 365px;
+    }
+    .back {
+        width: 80px;
+        height: 20px;
+        line-height: 16px;
+    }
+    .back a {
+        font-size: 12px;
+    }
+}
